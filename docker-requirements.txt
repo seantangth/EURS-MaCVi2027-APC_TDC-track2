@@ -1,0 +1,11 @@
+# Installed by our root Dockerfile (see Dockerfile) (python:3.12-slim + torch 2.14.1 CPU). Pinned to the versions that produced the
+# leaderboard ONNX; a different onnxscript / onnxslim version can rename graph nodes.
+onnx==1.23.2
+onnxscript==0.7.2
+onnxslim==0.1.98
+onnxruntime==1.31.0
+timm==1.0.30
+numpy==2.5.2
+ml_dtypes==0.6.0
+pyyaml==6.0.1
+pillow==12.3.0

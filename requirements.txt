@@ -1,5 +1,2 @@
-# Extra pip packages beyond the organizers' base image, with pinned versions.
-# The base image already has: PyTorch 2.4.0 (CUDA 12.1), numpy, pillow, opencv-python-headless, timm, einops,
-# onnx, pyyaml, scipy, scikit-image. Leave this file empty (comments only) if you need nothing else.
-# Example:
-# kornia==0.7.3
+# Not used: this repository has a root Dockerfile (python:3.12-slim + torch 2.14.1 CPU), which installs
+# docker-requirements.txt instead of the base image + this file.
